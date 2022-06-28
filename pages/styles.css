@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mr+De+Haviland&family=Shojumaru&display=swap');
+
+h1 {
+    font-family: 'Shojumaru', cursive;
+
+    text-align: center;
+    color: black;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 100px;
+    line-height: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2;
+    display: grid;
+    
+}
+
+
+body {
+    background-color: antiquewhite;
+    display: grid;
+}
+
+
+nav {
+    padding: 0, 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: bolder;
+    list-style: none;
+    margin-right: 50px;
+    position: relative;
+  
+    
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+ul li {
+
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2;
+    font-family: "Baloo Tammudu 2", cursive;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
+    flex-wrap: wrap;
+}
+
+.nosotros {
+    color: brown;
+    text-align: center;
+}
+
+.main__img {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
+    flex-wrap: wrap;
+}
+
+.bienvenidos {
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0, 9375rem;
+    background-color: black;
+
+}
+
+.mail {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+    
+    
+
+}
+
+.headercontact {
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+    display: contents;
+}
+
+
+.link{
+    color: black;
+}
+    
+
+
+.busqueda{
+    display: flex;
+}
+
+.logo{
+    display: contents;
+}
+
+
